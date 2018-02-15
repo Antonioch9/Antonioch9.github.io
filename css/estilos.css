@@ -790,8 +790,9 @@ label {
         width: 250px;
         height: 150px;
     }
+   
     .foto3{
-        width: 500px;
+        width: 300px;
         height: 300px;
     }
     .info h1 {
@@ -800,6 +801,23 @@ label {
     }
     .info h5 {
         font-size: 15px;
+    }
+    .botones h1 {
+        font-size: 25px;
+    }
+    .botoncom .nombre{
+        font-size: 20px;
+        bottom: -5px;
+    }
+    .botonalq .nombre {
+        font-size: 20px;
+        bottom: -5px;
+    }
+    .conocenos h1 {
+        font-size: 25px;
+    }
+    .conocenos p {
+        font-size: initial;
     }
     .mirar h1 {
         font-size: 35px;
