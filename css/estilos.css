@@ -128,6 +128,7 @@ li a:hover{
 .col2 p {
     text-align: justify;
     margin: 10px;
+    color: #3f3f3f;
 }
 .ejemplos {
     display: flex;
@@ -237,6 +238,7 @@ li a:hover{
 .conocenos p {
     margin: 20px;
     text-align: justify;
+    color: #3f3f3f;
 }
 .conocenos h1 {
     text-align: center;
@@ -823,6 +825,7 @@ label {
     }
     .conocenos p {
         font-size: initial;
+        color: #3f3f3f;
     }
     .mirar h1 {
         font-size: 35px;
