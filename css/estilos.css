@@ -695,6 +695,7 @@ hr {
     margin-left: 50%;
     transform: translate(-50%);
     width: 25%;
+    border-radius: 200px;
 }
 label {
     text-align: center;
@@ -743,6 +744,10 @@ label {
     }
     .seccion {
         flex-direction: column;
+    }
+    form {
+        width: 100%;
+    }
 }
 @media (max-width:740px){
     .burger{
@@ -831,6 +836,7 @@ label {
         padding: 20px;
         text-align: center
     }
+    
 }
 @media (max-width:565px){
     .formulario h1 {
