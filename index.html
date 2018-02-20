@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Alquilocomprocasa. S.A</title>
     <link rel="stylesheet" href="./css/estilos.css">
+    
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Heebo" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -16,11 +17,30 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
+    <script src="./js/libreria/jquery-3.3.1.js"></script>
+    <script src="./js/main.js"></script>
+        
 </head>
-
 <body>
-    <header>
+    <header id="top">
         <p class="burger">&#9776;</p>
+        <div class="menu">
+            <p class="cerrar">&#x2715;</p>
+            <ul>
+                
+                <a href="/" class="activo">Inicio</a>
+            
+            
+                <a href="comprar.html">Compras</a>
+            
+            
+                <a href="Alquilar.html">Alquiler</a>
+            
+            
+                <a href="Contacto.html">Contacto</a>
+                
+            </ul>
+        </div>
         <a href="#">
             <i class="fas fa-home"></i>
         </a>
@@ -43,9 +63,11 @@
     </header>
 
     <div class="hero" id="inicio">
-
         <h1>Bienvenidos a Inmobiliaria Hernández la mejor empresa para alquilar o comprar viviendas.</h1>
         <h2>La mejor oportunidad para confiar en nosotros</h2>
+        <a href="#ir">
+            <i class="fas fa-angle-double-down"></i>
+        </a>
     </div>
     <div class="fila">
         <div class="col2">
@@ -90,7 +112,7 @@
             </div>
         </div>
     </div>
-    <div class="botones">
+    <div class="botones" id="ir">
         <h1>¿Quieres comprar o Alquilar?</h1>
         <div class="botoncom">
             <p class="nombre">Compra</p>

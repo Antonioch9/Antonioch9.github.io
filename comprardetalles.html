@@ -8,10 +8,25 @@
     <link rel="stylesheet" href="./css/estilos.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Heebo" rel="stylesheet">
+    <script src="./js/libreria/jquery-3.3.1.js"></script>
+    <script src="./js/main.js"></script>
 </head>
 <body>
         <header>
-                <p class="burger">&#9776;</p>
+                    <!-- BOTON MENU HAMBURGUESA -->
+        <div class="burger2">
+                <div class="barra arriba"></div>
+                <div class="barra media"></div>
+                <div class="barra abajo"></div>
+            </div>
+        <div class="menu2">
+            <ul>
+                <a href="/">Inicio</a>
+                <a href="#"class="activo">Compras</a>
+                <a href="Alquilar.html">Alquiler</a>
+                <a href="Contacto.html">Contacto</a>
+            </ul>
+        </div>
                 <a href="index.html">
                   <i class="fas fa-home"></i>
                 </a>
@@ -96,10 +111,23 @@
                         <h4>07013 Palma de Mallorca</h4>
                         <h4>Tel.: (+34) 649 21 78 79</h4>
                 </div>
-                <div class="mapa">
-                        <iframe  src="https://www.google.com/maps/embed?pb=!4v1518520775227!6m8!1m7!1spOR5TdMt_hcs7yRzsS47vA!2m2!1d39.58571324858914!2d2.617259613984908!3f41.16255339320897!4f2.091750366441346!5f0.7820865974627469" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                
+                <div class="ubi">
+                        <div class="overlay">
+
+                        </div> 
+                        <div class="mapa">
+                                <iframe  src="https://www.google.com/maps/embed?pb=!4v1518520775227!6m8!1m7!1spOR5TdMt_hcs7yRzsS47vA!2m2!1d39.58571324858914!2d2.617259613984908!3f41.16255339320897!4f2.091750366441346!5f0.7820865974627469" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> 
+                                <button id="open">ver Ubicacion</button>
+                        </div>
+                        <div class="modal">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d996.1956814822485!2d2.617067573437466!3d39.5857939461276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1519132708556" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <button id="close">salir</button>
+                        </div>
                 </div>
-        </div>     
+                
+        </div> 
+        
 </div>
 
 <div class="centro">
