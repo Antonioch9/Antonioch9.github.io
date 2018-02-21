@@ -297,6 +297,12 @@ li a:hover{
     border-radius: 200px;
     position: relative;
 }
+.botoncom:hover{
+    background-color: #28282886;
+}
+.botonalq:hover{
+    background-color: #28282886;
+}
 .botoncom .nombre {
     font-family: 'Bungee Inline', cursive;
     position: absolute;
@@ -583,12 +589,14 @@ li {
     padding: 100px 100px;
 }
 .tarjeta {
+    position: relative;
     width: 300px;
     height: 400px;
     box-shadow: 8px 8px 10px black;
     border-radius: 40px 40px 80px 0;
     border: #db0909 3px solid;    
     background-color: aliceblue;
+    z-index: 2;
 }
 .imagen {
     height: 200px;
@@ -596,6 +604,21 @@ li {
     text-align: center;
     
 }
+.etiqueta {
+    position: absolute;
+    z-index: 3;
+    background-color: #6d0505;
+    color: #fdf1f1;
+    margin-top: 20px;
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    border-radius: 8px;
+    animation-name: intermitente;
+    animation-duration: 2500ms;
+    animation-iteration-count: infinite;
+    
+}
+
 .imagen img {
     height: 200px;
     border-radius: 50px;
