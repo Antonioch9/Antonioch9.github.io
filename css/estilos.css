@@ -974,7 +974,17 @@ label {
         display: initial;
         cursor: pointer;
     }
-    
+    .datos {
+        font-size: 20px;
+    }
+    .precio{
+        font-size: 20px;
+    }
+    .botonmas{
+        font-size: 15px;
+        margin-top: 10px;
+
+    }
     nav {
         display: none;
     }
