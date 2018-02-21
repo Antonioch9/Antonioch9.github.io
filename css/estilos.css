@@ -275,7 +275,11 @@ li a:hover{
     text-align: center;
 }
 .botones {
-    margin:40px 40px;
+    background-image: url('../img/werty.jpg');
+    background-position: center center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -291,7 +295,6 @@ li a:hover{
     flex-direction: column;
     align-items:center;
     border-radius: 200px;
-    box-shadow: 2px 2px 2px grey, -2px 2px 2px grey, 2px 2px 2px grey, -2px 2px 2px grey;
     position: relative;
 }
 .botoncom .nombre {
@@ -300,7 +303,7 @@ li a:hover{
     color: rgb(207, 31, 31);
     font-size: 40px;
     opacity: 0;
-    transition: 4s;
+    transition: 1s;
     bottom: -20px;
 }
 .botoncom:hover .nombre {
@@ -311,7 +314,6 @@ li a:hover{
     flex-direction: column;
     align-items:center;
     border-radius: 200px;
-    box-shadow: 2px 2px 2px grey, -2px 2px 2px grey, 2px 2px 2px grey, -2px 2px 2px grey;
     position: relative;
 }
 .botonalq .nombre {
@@ -320,7 +322,7 @@ li a:hover{
     color: rgb(207, 31, 31);
     font-size: 40px;
     opacity: 0;
-    transition: 2s;
+    transition: 1s;
     bottom: -20px;
 }
 .botonalq:hover .nombre {
@@ -707,7 +709,7 @@ li {
 
 .info {
     padding: 50px;
-    display: flex;
+    /* display: flex; */
 }
 .info h1 {
     padding: 80px;
@@ -722,7 +724,7 @@ li {
     display: grid;
     grid-template-columns:repeat(auto-fit, 300px); /*para definir en filas y columnas*/
     grid-template-rows: repeat(2,50px);
-    grid-gap: 40px;
+    grid-gap: 100px;
     justify-content: space-around;
     align-items: center;
     padding: 40px;
@@ -789,8 +791,11 @@ li {
     justify-content: center;
     align-items: center;
     margin: 10px;
-    border: #db0909 solid 1px;
 
+}
+.modal iframe{
+    border-radius: 100px;
+    box-shadow: black 4px 4px 5px;
 }
 .modal {
     display: flex;
@@ -807,6 +812,7 @@ button{
     height: 50px;
     width: 200px;
     box-shadow: 2px 2px 2px black;
+    margin-top: 20px;
     
 }
 .modal {
@@ -815,12 +821,10 @@ button{
     left: 50%;
     transform: translate(-50%,-50%);
     width: 300px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4); 
     opacity: 0;
     visibility: hidden;
     z-index: 10;
     transition: all 500ms ease;
-    background-color: white;
 }
 .modal.visible{
     visibility: visible;
@@ -858,7 +862,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
-    background-image: url('../img/MundoInmobiliario fondo 1.jpg');
+    background-image: url('../img/27552-new-york-skyline-1920x1080-vector-wallpaper.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -881,7 +885,7 @@ hr {
 }
 label {
     text-align: center;
-    color:black;
+    color:white;
 }
 
 /*FIN PAGINA DE COMPRA DETALLES*/
@@ -895,13 +899,21 @@ label {
     text-align: center;
     justify-content: space-around;
 }
+.infor{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
 .sin {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
-    background-image: url('../img/fondo_2.jpg');
+    background-image: url('../img/27552-new-york-skyline-1920x1080-vector-wallpaper.jpeg');
+    background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
