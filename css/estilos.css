@@ -793,6 +793,9 @@ li {
     padding-bottom: 20px;
     font-size: 20px;
 }
+.mirar h2{
+    text-align: center;
+}
 
 .conjunto {
     flex-wrap: wrap;
