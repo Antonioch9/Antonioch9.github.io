@@ -965,15 +965,6 @@ label {
     form {
         width: 100%;
     }
-}
-@media (max-width:740px){
-    .burger{
-        display: initial;
-    }
-    .burger2{
-        display: initial;
-        cursor: pointer;
-    }
     .datos {
         font-size: 20px;
     }
@@ -985,6 +976,16 @@ label {
         margin-top: 10px;
 
     }
+}
+@media (max-width:740px){
+    .burger{
+        display: initial;
+    }
+    .burger2{
+        display: initial;
+        cursor: pointer;
+    }
+   
     nav {
         display: none;
     }
